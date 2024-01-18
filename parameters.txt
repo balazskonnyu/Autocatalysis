@@ -1,0 +1,22 @@
+# general info: Start, End, DeltaT, Num. of reactions,Num. of Chem. Entities, Sum of cc,  V, v, Tmodel, JoinedCycles, Num. of Interactions Type 1, Num. of Interactions Type 2
+0.00,1000000.00,1.0,6,7,0.00,1.000000,0.020000,1,1,0,0
+# inflow: index of chemical entity, regime (IF Tmodel==1: 0: unlimited, -Value: limited, +Value: constant inflow)
+7,1.00
+# initial cc: index of chemical entity, cc
+1,0.01
+2,0.01
+3,0.01
+4,0.01
+5,0.01
+6,0.00
+# reactions: Educt1, Educt2, k_on, k_rev, Product1, Product2 (k_on<0 and/or k_off<0 -> random rata generation)
+1,7,8.71,0.00,2,0
+2,0,0.91,0.00,3,0
+3,0,7.59,0.76,1,1
+4,7,2.76,0.00,5,0
+5,0,7.80,0.00,3,0
+3,0,3.81,0.00,4,4
+# Interaction type 1: E+S1=ES1->E+P1+P2: S1, E, kon,koff, kcat, kcatr, P1, P2
+# Interaction type 2: E+S1=ES1, ES1+S2=ES1S2->E+P1+P2: S1, S2, E, kon1, koff1, kon2, koff2, kcat, kcatr, P1, P2
+# Joined cycles at these points
+3=6
