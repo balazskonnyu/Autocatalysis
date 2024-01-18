@@ -8,7 +8,7 @@ Files:
     2)  parameter_generator_v3.c. This file generates the parameters.txt file based on the instructions in the simulaton_controller.sh.
 
 Parameters in the parameters.txt file
-    * Section “general info” 
+    a. Section “general info” 
         * start: start of simulation
         * end: end of simulation
         * DeltaT: print the data at given time intervals (into res.res)
