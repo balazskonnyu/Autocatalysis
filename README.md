@@ -1,4 +1,4 @@
-# Autocatlysis
+# Autocatalysis
 
 The following seven files contain all the program codes the results of which have been presented in [] . 
 
