@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10560157.svg)](https://doi.org/10.5281/zenodo.10560157)
+
 # Autocatalysis
 
 The following seven files contain all the program codes the results of which have been presented in [] . 
